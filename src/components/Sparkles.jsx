@@ -39,7 +39,7 @@ export function SparklesPreviewDark() {
     return (
         <div className="h-screen w-full relative bg-slate-950 flex flex-col items-center justify-center overflow-hidden">
             {/* Flying Spaceship */}
-            {/* <motion.div
+            <motion.div
                 style={{
                     position: "absolute",
                     top: "5%",
@@ -67,10 +67,10 @@ export function SparklesPreviewDark() {
                 }}
             >
                 <img src="/spaceship.png" alt="" className="h-32 w-36 md:h-56 md:w-64" />
-            </motion.div> */}
+            </motion.div>
 
             {/* Flying Lego Man */}
-            {/* <motion.div
+            <motion.div
                 style={{
                     position: "absolute",
                     bottom: "10%",
@@ -99,10 +99,10 @@ export function SparklesPreviewDark() {
                 }}
             >
                 <img src="/legoMan.png" alt="" className="h-32 w-24 md:h-56 md:w-44" />
-            </motion.div> */}
+            </motion.div>
 
             {/* Particles Background */}
-            {/* <div className="absolute inset-0 w-full h-full">
+            <div className="absolute inset-0 w-full h-full">
                 <SparklesCore
                     id="tsparticlesfullpage"
                     background="transparent"
@@ -113,7 +113,7 @@ export function SparklesPreviewDark() {
                     particleColor="#FFFFFF"
                     speed={1}
                 />
-            </div> */}
+            </div>
 
             {/* Content */}
             <div className="relative z-20 text-center px-4">
@@ -141,6 +141,25 @@ export function SparklesPreviewDark() {
                 <div className="scale-90 sm:scale-100">
                     <Countdown />
                 </div>
+            </div>
+        </div>
+    );
+}
+
+export function SparklesDark() {
+    return (
+        <div className="h-screen w-full relative  flex flex-col items-center justify-center overflow-hidden">
+            <div className="absolute inset-0 w-full h-full">
+                <SparklesCore
+                    id="tsparticlesfullpage"
+                    background="transparent"
+                    minSize={0.2}
+                    maxSize={1}
+                    particleDensity={100}
+                    className="w-full h-full"
+                    particleColor="#FFFFFF"
+                    speed={1}
+                />
             </div>
         </div>
     );

@@ -28,10 +28,10 @@ export function Navbar() {
 
   const navItems = [
     { name: 'Home', href: '#home' },
-    // { name: 'About', href: '#about' },
-    // { name: 'Timeline', href: '#timeline' },
-    // { name: 'Tracks', href: '#tracks' },
-    // { name: 'Partners', href: '#partners' },
+    { name: 'About', href: '#about' },
+    { name: 'Timeline', href: '#timeline' },
+    { name: 'Tracks', href: '#tracks' },
+    { name: 'Partners', href: '#partners' },
   ];
 
   return (
