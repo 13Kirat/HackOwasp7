@@ -27,12 +27,17 @@ export function Navbar() {
     { name: "Home", href: "#home" },
     { name: "About", href: "#about" },
     { name: "Timeline", href: "#timeline" },
-    { name: "Accommodation", href: "https://forms.gle/bgzhuFum2KCYipYy9", target: "_blank" },
-    { name: "Workshops", href: "https://forms.gle/oJFXHmn9XjKJ9FiW6", target: "_blank" },
+    // { name: "Accommodation", href: "https://forms.gle/bgzhuFum2KCYipYy9", target: "_blank" },
+    // { name: "Workshops", href: "https://forms.gle/oJFXHmn9XjKJ9FiW6", target: "_blank" },
     { name: "Tracks", href: "#tracks" },
     { name: "Prices", href: "#prices" },
     { name: "Partners", href: "#partners" },
     { name: "FAQs", href: "#faq" },
+    // { name: 'Home', href: '#home' },
+    // { name: 'About', href: '#about' },
+    // { name: 'Timeline', href: '#timeline' },
+    // { name: 'Tracks', href: '#tracks' },
+    // { name: 'Partners', href: '#partners' },
   ];
 
   return (

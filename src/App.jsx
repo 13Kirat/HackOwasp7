@@ -1,11 +1,11 @@
 import React from "react";
 import { Navbar } from "./components/Navbar";
-import { Hero } from "./components/Hero";
 import { TimelineDemo } from "./components/TimelineDemo";
 import { Logos3 } from "./components/logos3";
 import TracksSlider from "./components/Tracks";
 import SplineScreen from "./components/SplineScene";
 import AboutUs from "./components/3dCarousel";
+import LegoCarousel from "./components/3dCarousel";
 import figurine from "/tracks.svg";
 import { SparklesPreviewDark } from "./components/Sparkles";
 import { SponsorCarousel } from "./components/SponsorCarousel";
@@ -22,6 +22,13 @@ import Footer from "./components/Footer";
 import FAQAccordion from "./components/Accordian";
 import { PricingDemo } from "./components/Prices";
 // App.jsx - Updated structure
+import { motion } from "framer-motion";
+
+import Footer from './components/Footer';
+import Card from "./components/Spo";
+import { Component } from "./components/faq";
+
+
 function App() {
   return (
     <div
@@ -117,8 +124,18 @@ function App() {
         </div>
       </div>
 
-      <div id="prices">
+      {/* <div id="prices"> */}
         <PricingDemo />
+      {/* <Card /> */}
+      {/* Partners Section */}
+      <div className="min-h-screen bg-black">
+        {/* Sponsors Section */}
+        <section className="relative z-10">
+          <SponsorCarousel />
+        </section>
+      </div>
+      <div className="">
+        <Component />
       </div>
 
       {/* Partners Section */}

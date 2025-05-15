@@ -111,8 +111,8 @@ export function SparklesPreviewDark() {
                 <img src="/legoMan.png" alt="" className="h-32 w-24 md:h-56 md:w-44" />
             </motion.div>
 
-      {/* Particles Background */}
-      {/* <div className="absolute inset-0 w-full h-full">
+            {/* Particles Background */}
+            <div className="absolute inset-0 w-full h-full">
                 <SparklesCore
                     id="tsparticlesfullpage"
                     background="transparent"
@@ -123,7 +123,7 @@ export function SparklesPreviewDark() {
                     particleColor="#FFFFFF"
                     speed={1}
                 />
-            </div> */}
+            </div>
 
       {/* Content */}
       <div className="relative z-20 text-center px-4">
@@ -164,6 +164,25 @@ export function SparklesPreviewDark() {
       </div>
     </div>
   );
+}
+
+export function SparklesDark() {
+    return (
+        <div className="h-screen w-full relative  flex flex-col items-center justify-center overflow-hidden">
+            <div className="absolute inset-0 w-full h-full">
+                <SparklesCore
+                    id="tsparticlesfullpage"
+                    background="transparent"
+                    minSize={0.2}
+                    maxSize={1}
+                    particleDensity={100}
+                    className="w-full h-full"
+                    particleColor="#FFFFFF"
+                    speed={1}
+                />
+            </div>
+        </div>
+    );
 }
 
 export function SparklesPreviewColorful() {
